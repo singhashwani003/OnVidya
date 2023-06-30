@@ -15,7 +15,7 @@ import {
 
 const EventsDetailsThree = () => {
   useEffect(() => {
-    if (document.getElementById("timer")) {
+    if (document.getElementById("timerr")) {
       var countDownDate = new Date("Oct 25, 2023 15:45:25").getTime(); // Update the count down every 1 second
 
       var x = setInterval(function () {
@@ -31,7 +31,7 @@ const EventsDetailsThree = () => {
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000); // Display the result in the element with id="demo"
 
-        document.getElementById("timer").innerHTML =
+        document.getElementById("timerr").innerHTML =
           "<div class='text-[44px] font-bold'>" +
           days +
           "<div class=' text-lg font-medium mt-2 capitalize'>days</div></div>" +
@@ -47,7 +47,7 @@ const EventsDetailsThree = () => {
 
         if (distance < 0) {
           clearInterval(x);
-          document.getElementById("timer").innerHTML = "EXPIRED";
+          document.getElementById("timerr").innerHTML = "EXPIRED";
         }
       }, 1000);
     }
@@ -67,7 +67,7 @@ const EventsDetailsThree = () => {
             </div>
             <div className="bg-secondary text-white p-10 rounded-md">
               <div
-                id="timer"
+                id="timerr"
                 className="md:flex space-y-4 md:space-y-0 justify-between text-center "
               >
                 {/* <div className="text-[44px] font-bold">
