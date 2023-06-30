@@ -4,14 +4,12 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import HomeThree from "./Components/Home/HomeThree";
 import ErrorPage from "./Components/Pages/404Page";
 import AboutOne from "./Components/Pages/AboutOne";
-import AboutTwo from "./Components/Pages/AboutTwo";
 import ContactUs from "./Components/Pages/ContactUs";
 import Courses from "./Components/Pages/Courses";
 import Event from "./Components/Pages/Event";
 import EventSingle from "./Components/Pages/EventSingle";
 import InstructorTwo from "./Components/Pages/InstructorTwo";
 import SingleBlog from "./Components/Pages/SingleBlog";
-import SingleCourse from "./Components/Pages/SingleCourse";
 import Thanks from "./Components/Pages/Thanks";
 import EventTwo from "./Components/Pages/EventTwo";
 import EventsThree from "./Components/Pages/EventsThree";
@@ -31,10 +29,6 @@ function App() {
           />
           <Route path="/react-templates/edumim/about" element={<AboutOne />} />
           <Route
-            path="/react-templates/edumim/about-two"
-            element={<AboutTwo />}
-          />
-          <Route
             path="/react-templates/edumim/instructor-two"
             element={<InstructorTwo />}
           />
@@ -53,14 +47,6 @@ function App() {
           />
           <Route path="/react-templates/edumim/error" element={<ErrorPage />} />
           <Route path="/react-templates/edumim/courses" element={<Courses />} />
-          <Route
-            path="/react-templates/edumim/single-course"
-            element={<SingleCourse />}
-          />
-          <Route
-            path="/react-templates/edumim/blog-standard"
-            element={<BLogStandard />}
-          />
           <Route
             path="/react-templates/edumim/single-blog"
             element={<SingleBlog />}
