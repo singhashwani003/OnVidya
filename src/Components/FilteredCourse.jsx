@@ -4,12 +4,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { courseData } from "../constant/dummyData";
 import {
-  c1,
-  c2,
-  c3,
-  c4,
-  c5,
-  c6,
   clock,
   file,
   review,
