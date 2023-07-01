@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { coursesData } from "../../constant/dummyData";
 import CourseFilter from "./CourseFilter";
 import SingleCourse from "./SingleCourse";
@@ -27,6 +28,7 @@ const CourseSection = () => {
               setFilterData={setFilterData} />
           </div>
         </div>
+        <Link to={"/react-templates/edumim/courses"}>
         <div className="flex flex-wrap pt-10 grids">
           {filterData?.length > 0 ? (
             filterData.map((data, index) => (
@@ -37,10 +39,11 @@ const CourseSection = () => {
           )}
 
         </div>
+        </Link>
         <div className="text-center lg:pt-16 pt-10">
-          <a href="#" className=" btn btn-primary">
+          <Link to={"/react-templates/edumim/courses"} className=" btn btn-primary">
             View All Courses
-          </a>
+          </Link>
         </div>
       </div>
     </div>

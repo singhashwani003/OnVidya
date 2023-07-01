@@ -10,7 +10,6 @@ import {
   c4,
   c5,
   c6,
-  c7,
   clock,
   file,
   review,
@@ -42,19 +41,7 @@ const FilteredCourse = ({ classNameForTabOne, classNameForTabTwo }) => {
               </Tab>
             ))}
           </Tab.List>
-          <span>Showing 12 courses of 52</span>
-        </div>
-        <div className="flex-0">
-          <div className="min-w-[272px]">
-            <select>
-              <option data-display="Sort By: Popularity">
-                Sort By: Popularity
-              </option>
-              <option value="1">Popularity</option>
-              <option value="2">Another option</option>
-              <option value="4">Potato</option>
-            </select>
-          </div>
+          <span>Showing 6 courses of 6</span>
         </div>
       </div>
       <Tab.Panels as="div" id="tabs-content">
@@ -100,7 +87,7 @@ const FilteredCourse = ({ classNameForTabOne, classNameForTabTwo }) => {
             ))}
           </div>
           <div className="text-center pt-14">
-            <a
+            <div
               href="#"
               className=" btn btn-primary inline-flex items-center  space-x-[10px]"
             >
@@ -108,12 +95,12 @@ const FilteredCourse = ({ classNameForTabOne, classNameForTabTwo }) => {
               <span className=" relative top-1">
                 <iconify-icon icon="ion:reload-outline"></iconify-icon>
               </span>
-            </a>
+            </div>
           </div>
         </Tab.Panel>
         <Tab.Panel id="tab2" className="tab-content">
           <div className={classNameForTabTwo}>
-            {[c1, c2, c3, c4, c5, c6, c7].map((item, index) => (
+            {courseData.map((item, index) => (
               <Link
                 className=" bg-white rounded-[8px] transition shadow-box7 duration-150 border-b-4 hover:border-primary border-transparent
             hover:shadow-box6 flex p-8 space-x-6"
@@ -123,7 +110,7 @@ const FilteredCourse = ({ classNameForTabOne, classNameForTabTwo }) => {
                 <div className="flex-none">
                   <div className="w-[159px] h-[159px]  rounded  relative">
                     <img
-                      src={item}
+                      src={item.img}
                       alt=""
                       className=" w-full h-full object-cover rounded"
                     />
@@ -131,7 +118,7 @@ const FilteredCourse = ({ classNameForTabOne, classNameForTabTwo }) => {
                 </div>
                 <div className="course-content flex-1">
                   <div className="text-primary font-bold text-2xl mb-2 flex justify-between">
-                    <span className=" inline-block">$29.28</span>
+                    <span className=" inline-block">{item.price}</span>
                     <span className=" flex space-x-1">
                       <span className="w-4 h-4 inline-block ">
                         <img
@@ -164,7 +151,7 @@ const FilteredCourse = ({ classNameForTabOne, classNameForTabTwo }) => {
                     </span>
                   </div>
                   <h4 className=" text-2xl leading-[36px] mb-4 font-bold">
-                    Basic Fundamentals of Interior &amp; Graphics Design
+                   {item.title}
                   </h4>
                   <div className="flex   space-x-6">
                     <span className=" flex items-center space-x-2">
@@ -173,7 +160,7 @@ const FilteredCourse = ({ classNameForTabOne, classNameForTabTwo }) => {
                     </span>
                     <span className=" flex items-center space-x-2">
                       <img src="assets/images/svg/user2.svg" alt="" />
-                      <span>4k Lesson</span>
+                      <span>{item.time}</span>
                     </span>
                   </div>
                 </div>
@@ -181,7 +168,7 @@ const FilteredCourse = ({ classNameForTabOne, classNameForTabTwo }) => {
             ))}
           </div>
           <div className="text-center pt-14">
-            <a
+            <div
               href="#"
               className=" btn btn-primary inline-flex items-center  space-x-[10px]"
             >
@@ -189,7 +176,7 @@ const FilteredCourse = ({ classNameForTabOne, classNameForTabTwo }) => {
               <span className=" relative top-1">
                 <iconify-icon icon="ion:reload-outline"></iconify-icon>
               </span>
-            </a>
+            </div>
           </div>
         </Tab.Panel>
       </Tab.Panels>

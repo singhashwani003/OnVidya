@@ -58,16 +58,16 @@ const Header = () => {
                     </li>
                     <li>
                       <Link to={"/react-templates/edumim/contacts"}>
-                        Contacts
+                        Contact Us
                       </Link>
                     </li>
                   </ul>
                 </div>
                 <div className="flex-none flex space-x-[18px]">
                   <div className=" hidden lg:block">
-                    <a href="#" className="btn btn-primary py-[15px] px-8">
+                    <Link to={"/react-templates/edumim/contacts"} className="btn btn-primary py-[15px] px-8">
                       Start Free Trial
-                    </a>
+                    </Link>
                   </div>
                   <div className=" block   lg:hidden">
                     <button

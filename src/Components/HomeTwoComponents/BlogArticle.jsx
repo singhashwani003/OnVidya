@@ -16,6 +16,7 @@ const BlogArticle = () => {
         </div>
         <div className="grid  xl:grid-cols-2 grid-cols-1 gap-[30px] lg:pt-10  pt-5">
           {blogArticleData.map((item, index) => (
+            <Link to={'/react-templates/edumim/single-blog'}>
             <div
               className=" bg-white shadow-box7 rounded-[8px] group transition duration-150 ring-0 hover:ring-2 hover:ring-primary
             hover:shadow-box8 sm:flex p-4 sm:space-x-6 space-y-6 sm:space-y-0"
@@ -52,6 +53,7 @@ const BlogArticle = () => {
                 </div>
               </div>
             </div>
+            </Link>
           ))}
         </div>
       </div>

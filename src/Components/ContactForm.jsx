@@ -6,6 +6,7 @@ const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState();
   const [message, setMessage] = useState();
+  const [phone , setPhone] = useState();
   const [loading, setLoading] = useState(false);
   const naviget = useNavigate();
 
@@ -16,6 +17,7 @@ const ContactForm = () => {
       name: name,
       email: email,
       message: message,
+      phone:phone,
     };
     console.log(templateParams);
 
@@ -31,6 +33,7 @@ const ContactForm = () => {
           console.log("SUCCESS!", response.status, response.text);
           setEmail("");
           setName("");
+          setPhone("");
           setMessage("");
           naviget("/react-templates/edumim/thanks");
           setLoading(false);
@@ -51,6 +54,7 @@ const ContactForm = () => {
           type="text"
           className=" from-control"
           placeholder="Name*"
+          required
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
@@ -61,7 +65,19 @@ const ContactForm = () => {
           className=" from-control"
           placeholder="Email*"
           value={email}
+          required
           onChange={(e) => setEmail(e.target.value)}
+        />
+      </div>
+      <div>
+        <input
+          type="tel"
+          className="from-control"
+          placeholder="Phone number*"
+          value={phone}
+          required
+          pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          onChange={(e) => setPhone(e.target.value)}
         />
       </div>
       <div className="md:col-span-2 col-span-1">
@@ -70,6 +86,7 @@ const ContactForm = () => {
           placeholder="Your Message*"
           rows="5"
           value={message}
+          required
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
       </div>

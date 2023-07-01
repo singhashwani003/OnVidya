@@ -75,7 +75,7 @@ const Footer = () => {
                   </li>
                   <li>
                   <Link to={"/react-templates/edumim/contacts"}>
-                  Contacts
+                  Contact Us
                 </Link>
                   </li>
                   <li>

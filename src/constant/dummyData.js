@@ -181,10 +181,9 @@ export const instructorData = [
 ];
 export const teamData = [
   { img: team5, name: "Aniket Rane", title: "Full Stack Senior Developer" },
-  { img: team6, name: " Avinash Chaturvedi  ", title: "Mobile Developer" },
-  { img: team7, name: " Swapnil Surve  ", title: "Web Developer" },
+  { img: team7, name: " Avinash Chaturvedi  ", title: "Mobile Developer" },
   { img: team8, name: "Swati Iyer", title: "UI/UX Designer" },
-  
+  { img: team7, name: " Swapnil Surve  ", title: "Web Developer" },
 ];
 
 export const blogsData = [

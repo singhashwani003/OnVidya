@@ -7,23 +7,6 @@ const EventsList = () => {
   return (
     <div className="nav-tab-wrapper tabs  section-padding">
       <div className="container">
-        <div className="flex  items-center mb-14">
-          <div className="flex-1 flex space-x-6  items-center">
-            <span>Showing 12 courses of 52</span>
-          </div>
-          <div className="flex-0">
-            <div className="min-w-[272px]">
-              <select>
-                <option data-display="Sort By: Popularity">
-                  Sort By: Popularity
-                </option>
-                <option value="1">Popularity</option>
-                <option value="2">Another option</option>
-                <option value="4">Potato</option>
-              </select>
-            </div>
-          </div>
-        </div>
         <div className="grid  lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
           {eventsData.map((item, index) => (
             <div
@@ -82,30 +65,6 @@ const EventsList = () => {
                 className="flex w-12 h-12 flex-col items-center justify-center bg-primary text-white rounded font-semibold"
               >
                 1
-              </a>
-            </li>
-            <li className="inline-flex">
-              <a
-                href="#"
-                className="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
-              >
-                2
-              </a>
-            </li>
-            <li className="inline-flex">
-              <a
-                href="#"
-                className="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
-              >
-                3
-              </a>
-            </li>
-            <li className="inline-flex">
-              <a
-                href="#"
-                className="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
-              >
-                4
               </a>
             </li>
             <li className="inline-flex">

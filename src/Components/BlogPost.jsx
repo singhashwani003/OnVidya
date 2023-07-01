@@ -181,95 +181,94 @@ const BlogPost = () => {
                   </div>
                 </div>
               </div>
-
-
               <div className="wdiget">
-                <h4 className="widget-title">Popular Tags</h4>
-                <ul className="flex flex-wrap">
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Business
-                    </a>
-                  </li>
+              <h4 className="widget-title">Popular Tags</h4>
+              <ul className="flex flex-wrap">
+                <li className="mr-2 mb-2">
+                  <a
+                    href="#"
+                    className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                  >
+                    Business
+                  </a>
+                </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Education
-                    </a>
-                  </li>
+                <li className="mr-2 mb-2">
+                  <a
+                    href="#"
+                    className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                  >
+                    Education
+                  </a>
+                </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Design
-                    </a>
-                  </li>
+                <li className="mr-2 mb-2">
+                  <a
+                    href="#"
+                    className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                  >
+                    Design
+                  </a>
+                </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Students
-                    </a>
-                  </li>
+                <li className="mr-2 mb-2">
+                  <a
+                    href="#"
+                    className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                  >
+                    Students
+                  </a>
+                </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Teachers
-                    </a>
-                  </li>
+                <li className="mr-2 mb-2">
+                  <a
+                    href="#"
+                    className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                  >
+                    Teachers
+                  </a>
+                </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      classNameroom
-                    </a>
-                  </li>
+                <li className="mr-2 mb-2">
+                  <a
+                    href="#"
+                    className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                  >
+                    classNameroom
+                  </a>
+                </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      Online
-                    </a>
-                  </li>
+                <li className="mr-2 mb-2">
+                  <a
+                    href="#"
+                    className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                  >
+                    Online
+                  </a>
+                </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
-                    >
-                      e-Learning
-                    </a>
-                  </li>
+                <li className="mr-2 mb-2">
+                  <a
+                    href="#"
+                    className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text-white"
+                  >
+                    e-Learning
+                  </a>
+                </li>
 
-                  <li className="mr-2 mb-2">
-                    <a
-                      href="#"
-                      className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text- 
-                        white"
-                    >
-                      Book
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
+                <li className="mr-2 mb-2">
+                  <a
+                    href="#"
+                    className="bg-[#F8F8F8] px-3 py-1 rounded text-base  transition-all  duration-150 hover:bg-primary hover:text- 
+                      white"
+                  >
+                    Book
+                  </a>
+                </li>
+              </ul>
+            </div>
+              
+        
             </div>
           </div>
         </div>
@@ -279,3 +278,5 @@ const BlogPost = () => {
 };
 
 export default BlogPost;
+
+

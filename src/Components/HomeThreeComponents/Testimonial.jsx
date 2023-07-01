@@ -33,11 +33,11 @@ const Testimonial = () => {
         modules={[Navigation, EffectCreative]}
         className="container"
       >
-        <SwiperSlide className="grid  lg:grid-cols-2 grid-cols-1  xl:gap-[60px] gap-6">
+        <SwiperSlide className="grid  lg:grid-cols-2 grid-cols-1  xl:gap-[60px] gap-6 side-padding">
           <div>
             <div className="slider-nav">
               <div className="single-item">
-                <div className="xl:h-[593px] lg:h-[400px] h-[150px] lg:w-full w-[150px] rounded-md">
+                <div className="xl:h-[593px] lg:h-[400px] h-[150px] lg:w-full w-[150px] rounded-md media-que">
                   <img
                     src={t1}
                     alt=""
@@ -50,7 +50,7 @@ const Testimonial = () => {
           <div>
             <div className="mini-title">Testimonial</div>
             <h4 className="column-title ">
-              Our Tallented Students Valuable
+              Our Talented Students Valuable { " " }
               <span className="shape-bg text-black">Feedback</span>
             </h4>
             <div className="slider-for mt-10">

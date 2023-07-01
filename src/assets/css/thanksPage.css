@@ -7,9 +7,10 @@
   margin-top: 200px;
 }
 .hero-text h1 {
-  color: #35ac39;
+  color: rgb(48 190 173);
+  opacity: 1;
   font-size: 60px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 70px;
   margin-bottom: 20px;
   position: relative;
@@ -22,8 +23,9 @@
   position: relative;
 }
 .back-home {
-  background: #35ac39;
-  border: 2px solid #35ac39;
+  background: rgb(255 126 132);
+  border: 2px solid rgb(255 126 132);
+  opacity: 1;
   border-radius: 500px;
   color: #fff;
   font-weight: 600;
@@ -36,8 +38,8 @@
 }
 .back-home:hover,
 .back-home:focus {
-  background: #4328b7;
+  background: rgb(48 190 173);
   color: #fff;
-  border: 2px solid #4328b7;
+  border: 2px solid rgb(48 190 173);
   text-decoration: none;
 }

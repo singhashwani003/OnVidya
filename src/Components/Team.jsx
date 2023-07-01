@@ -32,31 +32,29 @@ const Team = () => {
                 <div>{item.title}</div>
                 <ul className="space-x-4 flex justify-center pt-6">
                   <li>
-                    <a
-                      href="#"
+                    <div
                       className=" h-10 w-10 rounded bg-red-paste text-primary flex flex-col justify-center items-center text-2xl transition
                                 hover:bg-primary hover:text-white"
                     >
                       <iconify-icon icon="bxl:facebook"></iconify-icon>
-                    </a>
+                    </div>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <div
                       className=" h-10 w-10 rounded bg-green-paste text-secondary flex flex-col justify-center items-center text-2xl transition
                                 hover:bg-secondary hover:text-white"
                     >
                       <iconify-icon icon="bxl:twitter"></iconify-icon>
-                    </a>
+                    </div>
                   </li>
                   <li>
-                    <a
+                    <div
                       href="#"
                       className=" h-10 w-10 rounded bg-[#EEE8FF] text-#8861DB flex flex-col justify-center items-center text-2xl transition
                                 hover:bg-[#8861DB] hover:text-white"
                     >
                       <iconify-icon icon="bxl:linkedin"></iconify-icon>
-                    </a>
+                    </div>
                   </li>
                 </ul>
               </div>

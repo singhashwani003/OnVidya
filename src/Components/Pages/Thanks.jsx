@@ -10,7 +10,7 @@ const Thanks = () => {
             <div className="hero-text">
               <h1>Thank you for your e-mail.</h1>
               <h3>We Will contact you very soon.</h3>
-              <Link className="back-home" to={"/"}>
+              <Link className="back-home text-primary" to={"/"}>
                 Back To Home
               </Link>
             </div>

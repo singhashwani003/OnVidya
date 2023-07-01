@@ -42,11 +42,7 @@ const Event = () => {
                 </li>
                 
               </ul>
-              <Link
-                to={"/react-templates/edumim/contacts"}
-                className="btn px-8 py-[11px] bg-black text-white hover:bg-primary"
-              >{item.Button}
-              </Link>
+              <Link to={"/react-templates/edumim/contacts"} className="btn px-8 py-[11px] bg-black text-white hover:bg-primary">{item.Button}</Link>
             </div>
           </div>
         ))}
