@@ -76,7 +76,6 @@ const ContactForm = () => {
           placeholder="Phone number*"
           value={phone}
           required
-          pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{3}"
           onChange={(e) => setPhone(e.target.value)}
         />
       </div>

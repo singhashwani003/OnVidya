@@ -85,7 +85,7 @@ const Team = () => {
                 <h4 className=" lg:text-2xl text-1xl mb-1 font-bold">
                   {item.name}
                 </h4>
-                <div>{item.title} { " " } <span className="mini-title">{item.subtitle}</span></div>
+                <div>{item.title} { " " } <span className="mini-title text-primary">{item.subtitle}</span></div>
               </div>
             </div>
           ))}

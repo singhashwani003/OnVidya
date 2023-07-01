@@ -42,15 +42,11 @@ const BlogPost = () => {
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={calender} alt="" />
-                    <span>3 21 Feb, 22</span>
+                    <span>21 Feb, 22</span>
                   </a>
                   <a className=" flex items-center space-x-2" href="#">
                     <img src={clockIcon} alt="" />
                     <span>3 Min Read</span>
-                  </a>
-                  <a className=" flex items-center space-x-2" href="#">
-                    <img src={comment} alt="" />
-                    <span>02 Comments</span>
                   </a>
                 </div>
                 <h3>

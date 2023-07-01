@@ -82,7 +82,7 @@ export const blogArticleData = [
 export const courseData = [
   {
     id: [0, "marketing", "design"],
-    post: "Art and Design ",
+    post: "Development",
     price : "Free",
     title: "React - Fundamentals to Advanced",
     img: c1,
@@ -111,7 +111,7 @@ export const courseData = [
   },
   {
     id: [0, "marketing"],
-    post: "Tecknology",
+    post: "Technology",
     price: "$49.33",
     title: "Financial Security Thinking and Principles Theory",
     img: c4,
@@ -143,7 +143,7 @@ export const courseData = [
 export const coursesData = [
   {
     id: [0, "marketing", "design"],
-    post: "Art and Design ",
+    post: "Development",
     price : "Free",
     title: "React - Fundamentals to Advanced",
     img: c1,
